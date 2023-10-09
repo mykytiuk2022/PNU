@@ -1,0 +1,8 @@
+﻿  lab16.cpp
+D:\PNU\mine\Algorithm\lab16\lab16\lab16.cpp(47,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\PNU\mine\Algorithm\lab16\lab16\lab16.cpp(74,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\PNU\mine\Algorithm\lab16\lab16\lab16.cpp(75,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\PNU\mine\Algorithm\lab16\lab16\lab16.cpp(87,25): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\PNU\mine\Algorithm\lab16\lab16\lab16.cpp(106,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\PNU\mine\Algorithm\lab16\lab16\lab16.cpp(119,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  lab16.vcxproj -> D:\PNU\mine\Algorithm\lab16\x64\Debug\lab16.exe

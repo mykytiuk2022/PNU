@@ -1,0 +1,4 @@
+﻿  lab10.cpp
+D:\PNU\mine\Algorithm\lab10\lab10\lab10.cpp(36,49): warning C4311: '<function-style-cast>': pointer truncation from 'const char *' to 'int'
+D:\PNU\mine\Algorithm\lab10\lab10\lab10.cpp(36,49): warning C4302: '<function-style-cast>': truncation from 'const char *' to 'int'
+  lab10.vcxproj -> D:\PNU\mine\Algorithm\lab10\x64\Debug\lab10.exe

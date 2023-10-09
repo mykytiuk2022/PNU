@@ -1,0 +1,41 @@
+﻿  test2.cpp
+D:\PNU\mine\Algorithm\test2\test2\test2.cpp(10,25): error C2665: 'std::set<int,std::less<int>,std::allocator<int>>::set': no overloaded function could convert all the argument types
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\set(154,5): message : could be 'std::set<int,std::less<int>,std::allocator<int>>::set(std::initializer_list<int>)'
+D:\PNU\mine\Algorithm\test2\test2\test2.cpp(10,25): message : 'std::set<int,std::less<int>,std::allocator<int>>::set(std::initializer_list<int>)': cannot convert argument 1 from 'unsigned __int64' to 'std::initializer_list<int>'
+D:\PNU\mine\Algorithm\test2\test2\test2.cpp(10,38): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\set(90,5): message : or       'std::set<int,std::less<int>,std::allocator<int>>::set(const std::less<int> &)'
+D:\PNU\mine\Algorithm\test2\test2\test2.cpp(10,25): message : 'std::set<int,std::less<int>,std::allocator<int>>::set(const std::less<int> &)': cannot convert argument 1 from 'unsigned __int64' to 'const std::less<int> &'
+D:\PNU\mine\Algorithm\test2\test2\test2.cpp(10,38): message : Reason: cannot convert from 'unsigned __int64' to 'const std::less<int>'
+D:\PNU\mine\Algorithm\test2\test2\test2.cpp(10,38): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\set(84,5): message : or       'std::set<int,std::less<int>,std::allocator<int>>::set(const std::allocator<int> &)'
+D:\PNU\mine\Algorithm\test2\test2\test2.cpp(10,25): message : 'std::set<int,std::less<int>,std::allocator<int>>::set(const std::allocator<int> &)': cannot convert argument 1 from 'unsigned __int64' to 'const std::allocator<int> &'
+D:\PNU\mine\Algorithm\test2\test2\test2.cpp(10,38): message : Reason: cannot convert from 'unsigned __int64' to 'const std::allocator<int>'
+D:\PNU\mine\Algorithm\test2\test2\test2.cpp(10,38): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\set(110,5): message : or       'std::set<int,std::less<int>,std::allocator<int>>::set(_Iter,_Iter,const std::less<int> &,const std::allocator<int> &)'
+D:\PNU\mine\Algorithm\test2\test2\test2.cpp(10,25): message : 'std::set<int,std::less<int>,std::allocator<int>>::set(_Iter,_Iter,const std::less<int> &,const std::allocator<int> &)': expects 4 arguments - 1 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\set(105,5): message : or       'std::set<int,std::less<int>,std::allocator<int>>::set(_Iter,_Iter,const std::allocator<int> &)'
+D:\PNU\mine\Algorithm\test2\test2\test2.cpp(10,25): message : 'std::set<int,std::less<int>,std::allocator<int>>::set(_Iter,_Iter,const std::allocator<int> &)': expects 3 arguments - 1 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\set(100,5): message : or       'std::set<int,std::less<int>,std::allocator<int>>::set(_Iter,_Iter,const std::less<int> &)'
+D:\PNU\mine\Algorithm\test2\test2\test2.cpp(10,25): message : 'std::set<int,std::less<int>,std::allocator<int>>::set(_Iter,_Iter,const std::less<int> &)': expects 3 arguments - 1 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\set(95,5): message : or       'std::set<int,std::less<int>,std::allocator<int>>::set(_Iter,_Iter)'
+D:\PNU\mine\Algorithm\test2\test2\test2.cpp(10,25): message : 'std::set<int,std::less<int>,std::allocator<int>>::set(_Iter,_Iter)': expects 2 arguments - 1 provided
+D:\PNU\mine\Algorithm\test2\test2\test2.cpp(10,25): message : while trying to match the argument list '(unsigned __int64)'
+D:\PNU\mine\Algorithm\test2\test2\test2.cpp(13,12): error C2039: 'resize': is not a member of 'std::set<int,std::less<int>,std::allocator<int>>'
+D:\PNU\mine\Algorithm\test2\test2\test2.cpp(7,10): message : see declaration of 'std::set<int,std::less<int>,std::allocator<int>>'
+D:\PNU\mine\Algorithm\test2\test2\test2.cpp(13,22): error C2676: binary '-': '_OutIt' does not define this operator or a conversion to a type acceptable to the predefined operator
+          with
+          [
+              _OutIt=std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<int>>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(1540,5): message : could be 'unknown-type std::operator -(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)'
+D:\PNU\mine\Algorithm\test2\test2\test2.cpp(13,19): message : 'unknown-type std::operator -(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)': could not deduce template argument for 'const std::reverse_iterator<_BidIt> &' from '_OutIt'
+          with
+          [
+              _OutIt=std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<int>>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(4044,30): message : or       'unknown-type std::operator -(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)'
+D:\PNU\mine\Algorithm\test2\test2\test2.cpp(13,19): message : 'unknown-type std::operator -(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)': could not deduce template argument for 'const std::move_iterator<_Iter> &' from '_OutIt'
+          with
+          [
+              _OutIt=std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<int>>>
+          ]

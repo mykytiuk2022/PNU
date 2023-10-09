@@ -1,0 +1,9 @@
+﻿  lab14.cpp
+D:\PNU\mine\Algorithm\lab14\lab14\lab14.cpp(29,17): warning C4566: character represented by universal-character-name '\u2500' cannot be represented in the current code page (1251)
+D:\PNU\mine\Algorithm\lab14\lab14\lab14.cpp(33,23): warning C4566: character represented by universal-character-name '\u251C' cannot be represented in the current code page (1251)
+D:\PNU\mine\Algorithm\lab14\lab14\lab14.cpp(33,23): warning C4566: character represented by universal-character-name '\u2500' cannot be represented in the current code page (1251)
+D:\PNU\mine\Algorithm\lab14\lab14\lab14.cpp(33,44): warning C4566: character represented by universal-character-name '\u2514' cannot be represented in the current code page (1251)
+D:\PNU\mine\Algorithm\lab14\lab14\lab14.cpp(33,44): warning C4566: character represented by universal-character-name '\u2500' cannot be represented in the current code page (1251)
+D:\PNU\mine\Algorithm\lab14\lab14\lab14.cpp(37,31): warning C4566: character represented by universal-character-name '\u2502' cannot be represented in the current code page (1251)
+D:\PNU\mine\Algorithm\lab14\lab14\lab14.cpp(39,31): warning C4566: character represented by universal-character-name '\u2502' cannot be represented in the current code page (1251)
+  lab14.vcxproj -> D:\PNU\mine\Algorithm\lab14\x64\Debug\lab14.exe

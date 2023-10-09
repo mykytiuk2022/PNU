@@ -1,0 +1,12 @@
+﻿  main.cpp
+D:\PNU\mine\Algorithm\test_sfml\test_sfml\main.cpp(43,62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\PNU\mine\Algorithm\test_sfml\test_sfml\main.cpp(43,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\PNU\mine\Algorithm\test_sfml\test_sfml\main.cpp(54,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\PNU\mine\Algorithm\test_sfml\test_sfml\main.cpp(57,56): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\PNU\mine\Algorithm\test_sfml\test_sfml\main.cpp(58,62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\PNU\mine\Algorithm\test_sfml\test_sfml\main.cpp(58,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  test_sfml.vcxproj -> D:\PNU\mine\Algorithm\test_sfml\x64\Debug\test_sfml.exe
