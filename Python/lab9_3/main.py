@@ -29,9 +29,10 @@ morse_code = {
 
 
 def convert_to_morse(string):
+    string = string.lower()
     result = ""
     for char in string:
-        if char.lower() in morse_code:
+        if char in morse_code:
             result += morse_code[char]
         else:
             result += " "

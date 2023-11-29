@@ -1,0 +1,4 @@
+Sirius 0 -14
+Deneb -14 0
+Mira 14 0
+Algol 0 14
